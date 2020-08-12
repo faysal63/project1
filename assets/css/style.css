@@ -1,0 +1,244 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero-button{
+    background: transparent;
+    color: rgb(161, 158, 158);
+    border: 1px solid rgb(80, 79, 79) !important;
+    padding: 10px 35px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.section-hero__para{
+    font-family: 'Work Sans';
+    font-size: 15px;
+}
+
+.hero-button:hover{
+    background-color: white;
+    color: black;
+    transition: all ease-in-out 0.2s;
+}
+
+
+
+.section-hero {
+    background-image: linear-gradient(rgba(17, 4, 14, 0.8), rgba(0, 0, .21, 0.8)), url('/assets/images/background.jpg') ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    background-color: rgba(29,19,28);   
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.txt-lvl-2{
+     font-family: Oleo Script Swash Caps;
+     font-size: 50px;
+} 
+
+.section-menu{
+    height: auto;
+    margin-top: 100px;
+}
+
+.section-card__icon-container{
+    color: red;
+}
+
+.section-card__icon-container ::before {
+    font-size: 30px;
+}
+
+.txt-lvl-5{
+    font-family: Oleo Script Swash Caps;
+    
+}
+
+.section-card__text-container{
+    padding: 0 10px;
+    margin-left: 25px;
+}
+
+.para{
+    font-family: 'Work Sans';
+    font-size: 14px;
+}
+
+.portfolio-card__img-container{
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.portfolio-card__img-overlay{
+    background: #e4e2e332;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.portfolio-card:hover .portfolio-card__img-overlay{
+    opacity: 3;
+}
+
+
+.section-gallery__main-container{
+    margin: 20px;
+
+}
+
+.section-gallery{
+    background-color: rgba(250,244,250);
+    padding-top: 30px;
+    text-align: center !important;
+    margin-top: 70px;
+}
+
+.txt-lvl-title{
+    border-bottom: 2px solid red;
+    font-family: Oleo Script Swash Caps;
+    margin-top: 25px;
+    
+}
+
+.button-red{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 50px;
+}
+
+.section-subscribe{
+    background-image: linear-gradient(rgba(34, 9, 28, 0.8), rgba(0, 0, .21, 0.8)), url('/assets/images/background.jpg') ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    margin-top: 80px;
+}
+
+.section-subscribe__button-container{
+    margin-left: 100px;
+}
+
+.section-about-us__title-container{
+    margin: 40px;
+}
+
+.body-container__counter-item{
+    margin-left: 100px;
+}
+
+.counter-number{
+    font-size: 50px;
+    color: red;
+}
+
+.section-contact-us{
+    margin-top: 50px;
+    background-color: rgb(248,248,248);
+}
+
+.section-contact-us__main-title{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.form-items__input{
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 0;
+    background: #f7f7f7;
+    width: 100%;
+    box-shadow: none;
+
+}
+
+.form-items__button-container{
+    margin-bottom: 80px;
+}
+
+.form-items__input:hover{
+    box-shadow: none;
+    border-bottom: 2px solid #242424;
+    
+}
+
+.form-items__input:hover, .form-items__input:focus{
+    box-shadow: none;
+    border-bottom: 2px solid #242424;
+    
+}
+
+.form-items__input:active{
+    border: none;
+    box-shadow: none;
+}
+
+.contact-heading{
+    font-family: Oleo Script Swash Caps;
+    color: red;
+}
+
+.contact-para{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(90, 89, 89);
+}
+
+.section-footer{
+    height: 200px;
+}
+
+.section-footer__body-container{
+    margin-top: 50px;
+}
+
+.button-icon{
+    margin: 0 10px;
+    padding: 8px 0;
+    size: -2px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.button-icon:hover{
+    background-color: red;
+    transition: all ease-in-out 0.4s;
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: red;
+}
+
+.flaticon-twitter{
+    padding-right: 14px;
+}
+
+.flaticon-facebook{
+    padding-right: 14px;
+}
+
+.flaticon-linkedin{
+    padding-right: 14px;
+}
+
+
